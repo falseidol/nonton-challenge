@@ -33,7 +33,7 @@ public class ProductsServiceImpl implements ProductsService {
         }
         if (!productMap.containsKey(product.getId())) {
             productMap.put(product.getId(), product);
-            System.out.println("product with id " + product.getId() + "and name " + product.getName() + " was added.");
+            System.out.println("product with id " + product.getId() + "and name " + product.getName() + " was added. ");
             return true;
         }
         System.out.println("product with same id already exists.");
